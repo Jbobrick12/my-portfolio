@@ -10,7 +10,7 @@ body {
 /* Font and style for main page header */
 .header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(34, 119, 142);
+  background-color: rgb(21, 23, 78);
   padding: 10px;
   margin: -10px;
   color: whitesmoke;
@@ -24,6 +24,10 @@ body {
   float: right;
   margin-right: 25px;
   padding-top: 15px;
+}
+
+.header a {
+    padding-left: 10px;
 }
 
 .header ul {
@@ -40,11 +44,20 @@ body {
   font-size: 25px;
 }
 
-.article {
-  display: block;
-}
-
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-left: 200px;
+  font-size: 20px;
+}
+
+.titles h3 {
+  font-size: 25px;
+}
+
+.titles h4 {
+  font-size: 25px;
+}
+
+a {
+    padding-left: 200px;
 }
