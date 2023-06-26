@@ -3,6 +3,11 @@
   padding: 10;
   margin: 10;
 }
+
+main {
+  /*display: flex;*/
+}
+
 /* Adding a background color to the body of the page */
 body {
   background-color: rgb(219, 228, 235);
@@ -14,10 +19,12 @@ body {
   padding: 10px;
   margin: -10px;
   color: whitesmoke;
+  font-size: 22px;
 }
 
 .header h1 {
   display: inline-block;
+  margin-left: 10px;
 }
 
 .header nav {
@@ -25,11 +32,11 @@ body {
   margin-right: 25px;
   padding-top: 15px;
 }
-
+/* Spacing for links in header */
 .header a {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-
+/* Removing bullets and added spacing for links in header */
 .header ul {
   list-style-type: none;
   margin-left: 30px;
@@ -38,26 +45,91 @@ body {
 .header li {
   display: inline-block;
 }
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
 /* Changing color and size of nav links */
 .header a {
   color: azure;
   font-size: 25px;
 }
-
+/* Font and spacing for paragraph text sections */
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-left: 200px;
   font-size: 20px;
 }
 
+.titles {
+  display: flex;
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(43, 43, 137);
+  width: 20px;
+  height: 20px;
+  border: 50px solid rgb(219, 228, 235);
+  flex-wrap: wrap;
+  margin: 100px 0px 0px 50px;
+}
+/* These are font sizes for titles of sections */
+.titles h2 {
+  font-size: 35px;
+}
+
 .titles h3 {
-  font-size: 25px;
+  font-size: 35px;
+  margin: 100px 0px 50px 0px;
 }
 
 .titles h4 {
-  font-size: 25px;
+  font-size: 35px;
+  margin-top: 231px;
+}
+/* Spacing for links in body */
+a {
+  padding-left: 200px;
 }
 
-a {
-    padding-left: 200px;
+.contact {
+  display: flex;
+  margin-left: 150px;
+  padding-left: 20px;
+  position: absolute;
+  border: 0px solid rgb(219, 228, 235);
+  margin-top: 742px;
 }
+
+.my-work a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  display: flex;
+  margin-left: 350px;
+  padding-left: 10px;
+  position: absolute;
+  border: 0px solid rgb(219, 228, 235);
+  margin-top: 400px;
+}
+
+.contact a {
+  margin-top: 19px;
+  font-size: 20px;
+}
+
+.about-me {
+  display: flex;
+  margin-left: 100px;
+  padding-left: 10px;
+  position: absolute;
+  border: 0px solid rgb(219, 228, 235);
+  margin-top: 50px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 18%;
+  }
