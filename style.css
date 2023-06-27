@@ -18,13 +18,14 @@ body {
   background-color: rgb(55, 58, 60);
   padding: 10px;
   margin: -10px;
-  color: whitesmoke;
+  color: rgb(3, 41, 95);
   font-size: 22px;
+  background-image: url("assets/background-2462431_1280.jpg");
 }
 
 .header h1 {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .header nav {
@@ -53,40 +54,41 @@ body {
 
 /* Changing color and size of nav links */
 .header a {
-  color: azure;
+  color: rgb(3, 41, 95);
   font-size: 25px;
 }
 /* Font and spacing for paragraph text sections */
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding-left: 200px;
+  padding-left: 250px;
   font-size: 25px;
+  margin-top: -5px;
 }
 
 .titles {
   display: flex;
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(43, 43, 137);
+  color: rgb(3, 41, 95);
   width: 20px;
   height: 20px;
   border: 50px solid rgb(219, 228, 235);
   flex-wrap: wrap;
-  margin: 85px 0px 0px 40px;
+  margin: 50px 0px 0px 40px;
 }
 /* These are font sizes for titles of sections */
 .titles h2 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .titles h3 {
-  font-size: 35px;
-  margin: 200px 0px 50px 0px;
+  font-size: 40px;
+  margin: 260px 0px 50px 0px;
 }
 
 .titles h4 {
-  font-size: 35px;
-  margin-top: 331px;
+  font-size: 40px;
+  margin-top: 270px;
 }
 /* Spacing for links in body */
 a {
@@ -99,7 +101,7 @@ a {
   padding-left: 20px;
   position: absolute;
   border: 0px solid rgb(219, 228, 235);
-  margin-top: 920px;
+  margin-top: 970px;
 }
 
 .my-work a {
@@ -110,11 +112,11 @@ a {
   padding-left: 10px;
   position: absolute;
   border: 0px solid rgb(219, 228, 235);
-  margin-top: 500px;
+  margin-top: 550px;
 }
 
 .contact a {
-  margin-top: 22px;
+  margin-top: 0px;
   font-size: 25px;
 }
 
@@ -144,15 +146,19 @@ a {
 .my-work a {
     border: none;
     position: absolute;
-    margin-left: 400px;
-    margin-top: 479px;
+    margin-left: 450px;
+    margin-top: 510px;
+}
+
+.my-work a:hover {
+    cursor: grab;
 }
 
 .my-work img {
     border: none;
     margin: 0;
 }
-
+/* Spacing for second horizontal line */
 .hr2 {
     border: 3px dashed #3c3c3c;
     position: absolute;
