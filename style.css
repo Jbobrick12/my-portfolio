@@ -8,6 +8,8 @@ main {
   margin-bottom: 400px;
 }
 
+
+
 /* Adding a background color to the body of the page */
 body {
   background-color: rgb(219, 228, 235);
@@ -64,7 +66,7 @@ p {
   font-size: 25px;
   margin-top: -5px;
 }
-
+/* Styling for about me, work, and contact */
 .titles {
   display: flex;
   position: absolute;
@@ -130,38 +132,38 @@ a {
 }
 
 .vl {
-    border-left: 6px solid green;
-    height: 500px;
-    position: absolute;
-    left: 20%;
-  }
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 20%;
+}
 
-  hr {
-    border: 3px dashed #3c3c3c;
-    position: absolute;
-    margin-top: 350px;
-    width: 100%;
-  }
+hr {
+  border: 3px dashed #3c3c3c;
+  position: absolute;
+  margin-top: 350px;
+  width: 100%;
+}
 
 .my-work a {
-    border: none;
-    position: absolute;
-    margin-left: 450px;
-    margin-top: 510px;
+  border: none;
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 510px;
 }
 
 .my-work a:hover {
-    cursor: grab;
+  cursor: grab;
 }
 
 .my-work img {
-    border: none;
-    margin: 0;
+  border: none;
+  margin: 0;
 }
 /* Spacing for second horizontal line */
 .hr2 {
-    border: 3px dashed #3c3c3c;
-    position: absolute;
-    margin-top: 800px;
-    width: 100%;
+  border: 3px dashed #3c3c3c;
+  position: absolute;
+  margin-top: 800px;
+  width: 100%;
 }
