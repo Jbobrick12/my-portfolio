@@ -5,7 +5,7 @@
 }
 
 main {
-  /*display: flex;*/
+  margin-bottom: 400px;
 }
 
 /* Adding a background color to the body of the page */
@@ -15,7 +15,7 @@ body {
 /* Font and style for main page header */
 .header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(21, 23, 78);
+  background-color: rgb(55, 58, 60);
   padding: 10px;
   margin: -10px;
   color: whitesmoke;
@@ -60,7 +60,7 @@ body {
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-left: 200px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .titles {
@@ -72,7 +72,7 @@ p {
   height: 20px;
   border: 50px solid rgb(219, 228, 235);
   flex-wrap: wrap;
-  margin: 100px 0px 0px 50px;
+  margin: 85px 0px 0px 40px;
 }
 /* These are font sizes for titles of sections */
 .titles h2 {
@@ -81,12 +81,12 @@ p {
 
 .titles h3 {
   font-size: 35px;
-  margin: 100px 0px 50px 0px;
+  margin: 200px 0px 50px 0px;
 }
 
 .titles h4 {
   font-size: 35px;
-  margin-top: 231px;
+  margin-top: 331px;
 }
 /* Spacing for links in body */
 a {
@@ -95,41 +95,48 @@ a {
 
 .contact {
   display: flex;
-  margin-left: 150px;
+  margin-left: 200px;
   padding-left: 20px;
   position: absolute;
   border: 0px solid rgb(219, 228, 235);
-  margin-top: 742px;
+  margin-top: 920px;
 }
 
 .my-work a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
   display: flex;
-  margin-left: 350px;
+  margin-left: 400px;
   padding-left: 10px;
   position: absolute;
   border: 0px solid rgb(219, 228, 235);
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 .contact a {
-  margin-top: 19px;
-  font-size: 20px;
+  margin-top: 22px;
+  font-size: 25px;
 }
 
 .about-me {
   display: flex;
-  margin-left: 100px;
+  margin-left: 200px;
   padding-left: 10px;
   position: absolute;
   border: 0px solid rgb(219, 228, 235);
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .vl {
     border-left: 6px solid green;
     height: 500px;
     position: absolute;
-    left: 18%;
+    left: 20%;
+  }
+
+  hr {
+    border: 3px dashed #3c3c3c;
+    position: absolute;
+    margin-top: 350px;
+    width: 100%;
   }
