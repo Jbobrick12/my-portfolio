@@ -140,3 +140,22 @@ a {
     margin-top: 350px;
     width: 100%;
   }
+
+.my-work a {
+    border: none;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 479px;
+}
+
+.my-work img {
+    border: none;
+    margin: 0;
+}
+
+.hr2 {
+    border: 3px dashed #3c3c3c;
+    position: absolute;
+    margin-top: 800px;
+    width: 100%;
+}
