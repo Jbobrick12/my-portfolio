@@ -169,5 +169,16 @@ hr {
 }
 
 .btn {
-  width: 50px;
+  position: relative;
+  left: 35%;
+}
+
+.btn:hover {
+  cursor: grab;
+}
+
+.btn img {
+  width: 305px;
+  height: 150px;
+  border: none;
 }
