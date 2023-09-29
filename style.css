@@ -8,8 +8,6 @@ main {
   margin-bottom: 400px;
 }
 
-
-
 /* Adding a background color to the body of the page */
 body {
   background-color: rgb(219, 228, 235);
@@ -170,7 +168,7 @@ hr {
 
 .btn {
   position: relative;
-  left: 35%;
+  left: 25%;
 }
 
 .btn:hover {
@@ -178,6 +176,17 @@ hr {
 }
 
 .btn img {
+  width: 305px;
+  height: 150px;
+  border: none;
+}
+
+.btn-1 {
+  position: relative;
+  left: 50%;
+}
+
+.btn-1 img {
   width: 305px;
   height: 150px;
   border: none;
